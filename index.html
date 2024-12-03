@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>فال حافظ خفن</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header class="hero">
+      <h1>فال حافظ</h1>
+      <p>نیت کنید و روی دکمه‌ها کلیک کنید تا فال شما ظاهر شود</p>
+    </header>
+    <div class="actions">
+      <button class="btn" id="nate-btn">🎲 نیت و فال گرفتن</button>
+      <button class="btn" id="theme-btn">🌙 تغییر تم</button>
+      <button class="btn" id="share-btn">📤 اشتراک‌گذاری فال</button>
+    </div>
+    <div id="loading" class="hidden">
+      <p>فال شما در حال آماده شدن است...</p>
+      <div class="spinner"></div>
+    </div>
+    <div id="result" class="hidden">
+      <h2>فال شما:</h2>
+      <p id="poem"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
